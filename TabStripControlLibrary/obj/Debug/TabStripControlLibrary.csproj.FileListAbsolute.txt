@@ -1,0 +1,8 @@
+C:\Users\Platinum\Desktop\ribbon\Source\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.dll
+C:\Users\Platinum\Desktop\ribbon\Source\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.pdb
+C:\Users\Platinum\Desktop\ribbon\Source\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.csprojAssemblyReference.cache
+C:\Users\Platinum\Desktop\ribbon\Source\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.Properties.Resources.resources
+C:\Users\Platinum\Desktop\ribbon\Source\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.csproj.GenerateResource.cache
+C:\Users\Platinum\Desktop\ribbon\Source\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Platinum\Desktop\ribbon\Source\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.dll
+C:\Users\Platinum\Desktop\ribbon\Source\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.pdb
