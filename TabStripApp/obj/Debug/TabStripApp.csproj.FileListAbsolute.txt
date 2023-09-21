@@ -1,0 +1,12 @@
+C:\Users\Platinum\Desktop\ribbon\Source\TabStripApp\bin\Debug\TabStripApp.exe
+C:\Users\Platinum\Desktop\ribbon\Source\TabStripApp\bin\Debug\TabStripApp.pdb
+C:\Users\Platinum\Desktop\ribbon\Source\TabStripApp\bin\Debug\TabStripControlLibrary.dll
+C:\Users\Platinum\Desktop\ribbon\Source\TabStripApp\bin\Debug\TabStripControlLibrary.pdb
+C:\Users\Platinum\Desktop\ribbon\Source\TabStripApp\obj\Debug\TabStripApp.csprojAssemblyReference.cache
+C:\Users\Platinum\Desktop\ribbon\Source\TabStripApp\obj\Debug\TabStripApp.Form1.resources
+C:\Users\Platinum\Desktop\ribbon\Source\TabStripApp\obj\Debug\TabStripApp.Properties.Resources.resources
+C:\Users\Platinum\Desktop\ribbon\Source\TabStripApp\obj\Debug\TabStripApp.csproj.GenerateResource.cache
+C:\Users\Platinum\Desktop\ribbon\Source\TabStripApp\obj\Debug\TabStripApp.csproj.CoreCompileInputs.cache
+C:\Users\Platinum\Desktop\ribbon\Source\TabStripApp\obj\Debug\TabStripApp.csproj.CopyComplete
+C:\Users\Platinum\Desktop\ribbon\Source\TabStripApp\obj\Debug\TabStripApp.exe
+C:\Users\Platinum\Desktop\ribbon\Source\TabStripApp\obj\Debug\TabStripApp.pdb
