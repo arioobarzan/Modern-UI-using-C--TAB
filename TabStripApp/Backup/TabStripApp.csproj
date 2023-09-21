@@ -1,0 +1,172 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1F8DBC70-EB89-4D7B-A5C0-085ACDA74DA9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TabStripApp</RootNamespace>
+    <AssemblyName>TabStripApp</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RibbonButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TabPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TabStripControlLibrary\TabStripControlLibrary.csproj">
+      <Project>{F63A0939-5ADD-4931-8066-6901B5FBEF67}</Project>
+      <Name>TabStripControlLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\advanced-directory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B_click1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B_on1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B_click11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B_on11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logviewer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gnome-netstatus-rx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gnome-dev-harddisk-1394.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock_mail-druid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock_outbox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock_mail-receive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock_mail-receive1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock_mail-send.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock_mail-flag-for-followup-done.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock_contact.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock_weather-storm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gnome-dev-removable-usb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\config-users.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gnome-searchtool-animation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gnome-starthere.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mozilla-thunderbird.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gnome-finance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xsane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock_mail-compose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock_new-spreadsheet.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
